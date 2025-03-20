@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporting Goods Store</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="customers.html">Customers</a>
+        <a href="employees.html">Employees</a>
+        <a href="orders.html">Order Info</a>
+        <a href="products.html">Product Info</a>
+        <a href="suppliers.html">Suppliers/Vendors</a>
+        <a href="purchasedorders.html">Processed Orders</a>
+    </nav>
+    <header><h1>customerTable</h1></header>
+    <main>
+        <article>
+            <table id = "customerTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>customerID</th>
+                        <th>firstName</th>
+                        <th>lastName</th>
+                        <th>email</th>
+                        <th>phone</th>
+                        <th>address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><button type="submit">Edit</button></th>
+                        <th><button type="submit">Delete</button></th>
+                        <td>1</td>
+                        <td>Michael</td>
+                        <td>Wilson</td>
+                        <td>michael.wilson@example.com</td>
+                        <td>1987654321</td>
+                        <td>221 Jane St</td>
+                    </tr>
+                    <tr>
+                        <th><button type="submit">Edit</button></th>
+                        <th><button type="submit">Delete</button></th>
+                        <td>2</td>
+                        <td>James</td>
+                        <td>Turner</td>
+                        <td>james.turner@example.com</td>
+                        <td>1987654322</td>
+                        <td>341 River Ave</td>
+                    </tr>
+                    <tr>
+                        <th><button type="submit">Edit</button></th>
+                        <th><button type="submit">Delete</button></th>
+                        <td>3</td>
+                        <td>Emily</td>
+                        <td>Johnson</td>
+                        <td>emily.johnson@example.com</td>
+                        <td>1987654323</td>
+                        <td>777 Mission</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <form id="addCustomer">
+                <fieldset>
+                    <legend>Add a new customer to table</legend>
+                    <label>customerID</label>
+                    <input type="text" name="customerID">
+                    <label>firstName</label>
+                    <input type="text" name="firstname">
+                    <label>lastName</label>
+                    <input type="text" name="lastname">
+                    <label>email</label>
+                    <input type="text" name="email">
+                    <label>phone</label>
+                    <input type="text" name="phonenumber">
+                    <label>address</label>
+                    <input type="text" name="address">
+                </fieldset>
+                <button type="submit">Add Customer</button>
+            </form>
+        </article>
+        <article>
+            <form id="editCustomer">
+                <fieldset>
+                    <legend>Edit existing customer</legend>
+                    <label>customerID</label>
+                    <input type="text" name="customerID">
+                    <label>firstName</label>
+                    <input type="text" name="firstname">
+                    <label>lastName</label>
+                    <input type="text" name="lastname">
+                    <label>email</label>
+                    <input type="text" name="email">
+                    <label>phone</label>
+                    <input type="text" name="phonenumber">
+                    <label>address</label>
+                    <input type="text" name="address">
+                </fieldset>
+                <button type="submit">Edit Customer</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>

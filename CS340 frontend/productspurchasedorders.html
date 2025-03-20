@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Kwak</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="customers.html">Customers</a>
+        <a href="employees.html">Employees</a>
+        <a href="orders.html">Order Info</a>
+        <a href="products.html">Product Info</a>
+        <a href="suppliers.html">Suppliers/Vendors</a>
+        <a href="purchasedorders.html">Processed Orders</a>
+    </nav>
+    <header><h1>productspurchasedordersTable</h1></header>
+    <nav>
+        <a href="purchasedorders.html">View order status</a>
+    </nav>
+    <main>
+        <article>
+        <table id = "productspurchasedordersTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>purchaseID</th>
+                    <th>productID</th>
+                    <th>unitPrice</th>
+                    <th>quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>5.99</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>19.99</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>18.59</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>23.00</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+        </article>
+        <article>
+            <form id="add">
+                <fieldset>
+                    <legend>Add new purchased order to table based on purchaseID and productID</legend>
+                    <label>purchaseID</label>
+                    <input type="text" name="purchaseID">
+                    <label>productID</label>
+                    <input type="text" name="productID">
+                    <label>unitPrice</label>
+                    <input type="text" name="unitPrice">
+                    <label>quantity</label>
+                    <input type="text" name="quantity">
+                </fieldset>
+                <button type="submit">Add</button>
+            </form>
+        </article>
+        <article>
+            <form id="edit">
+                <fieldset>
+                    <legend>Update existing purchased order</legend>
+                    <label>purchaseID</label>
+                    <input type="text" name="purchaseID">
+                    <label>productID</label>
+                    <input type="text" name="productID">
+                    <label>unitPrice</label>
+                    <input type="text" name="unitPrice">
+                    <label>quantity</label>
+                    <input type="text" name="quantity">
+                </fieldset>
+                <button type="submit">Update</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>

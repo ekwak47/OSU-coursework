@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporting Goods Store</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="customers.html">Customers</a>
+        <a href="employees.html">Employees</a>
+        <a href="orders.html">Order Info</a>
+        <a href="products.html">Product Info</a>
+        <a href="suppliers.html">Suppliers/Vendors</a>
+        <a href="purchasedorders.html">Processed Orders</a>
+    </nav>
+    <header><h1>employeeTable</h1></header>
+    <main>
+        <article>
+        <table id = "employeeTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>employeeID</th>
+                    <th>firstName</th>
+                    <th>lastName</th>
+                    <th>email</th>
+                    <th>phone</th>
+                    <th>role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>1</td>
+                    <td>John</td>
+                    <td>Wick</td>
+                    <td>john.wick@example.com</td>
+                    <td>2062062062</td>
+                    <td>Sales Associate</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>2</td>
+                    <td>Matt</td>
+                    <td>Russo</td>
+                    <td>matt.russo@example.com</td>
+                    <td>2092092092</td>
+                    <td>Manager</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>3</td>
+                    <td>Sarah</td>
+                    <td>Miller</td>
+                    <td>sarah.miller@example.com</td>
+                    <td>3513513513</td>
+                    <td>Sales Associate</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <article>
+        <form id="addEmployee">
+            <fieldset>
+                <legend>Add new employee to table</legend>
+                <input type="text" name="employeeID">
+                <label>firstName</label>
+                <input type="text" name="firstname">
+                <label>lastName</label>
+                <input type="text" name="lastname">
+                <label>email</label>
+                <input type="text" name="email">
+                <label>phone</label>
+                <input type="text" name="phonenumber">
+                <label>role</label>
+                <input type="text" name="role">
+            </fieldset>
+            <button type="submit">Add Employee</button>
+        </form>
+    </article>
+    <article>
+        <form id="editEmployee">
+            <fieldset>
+                <legend>Edit existing employee</legend>
+                <label>employeeID</label>
+                <input type="text" name="employeeID">
+                <label>firstName</label>
+                <input type="text" name="firstname">
+                <label>lastName</label>
+                <input type="text" name="lastname">
+                <label>email</label>
+                <input type="text" name="email">
+                <label>phone</label>
+                <input type="text" name="phonenumber">
+                <label>role</label>
+                <input type="text" name="role">
+            </fieldset>
+            <button type="submit">Edit Employee</button>
+        </form>
+    </article>
+    </main>
+</body>
+</html>

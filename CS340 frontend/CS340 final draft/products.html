@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporting Goods Shop</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="customers.html">Customers</a>
+        <a href="employees.html">Employees</a>
+        <a href="orders.html">Order Info</a>
+        <a href="products.html">Product Info</a>
+        <a href="suppliers.html">Suppliers/Vendors</a>
+        <a href="purchasedorders.html">Processed Orders</a>
+    </nav>
+    <header><h1>productTable</h1></header>
+    <main>
+        <article>
+        <table id = "productTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>productID</th>
+                    <th>category</th>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>1</td>
+                    <td>Basketball</td>
+                    <td>Size 7 Performance Basketball</td>
+                    <td>59.99</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>2</td>
+                    <td>Tennis</td>
+                    <td>Winners Tennis Racket</td>
+                    <td>119.99</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>3</td>
+                    <td>Golf</td>
+                    <td>Golf Gloves</td>
+                    <td>49.99</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>4</td>
+                    <td>Soccer</td>
+                    <td>Indoor Soccer Ball</td>
+                    <td>36.99</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>5</td>
+                    <td>Football</td>
+                    <td>Grit Football Helmet</td>
+                    <td>79.99</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+        </article>
+        <article>
+            <form id="addProduct">
+                <fieldset>
+                    <legend>Add new product to table</legend>
+                    <label>productID</label>
+                    <input type="text" name="productID">
+                    <label>category</label>
+                    <input type="text" name="category">
+                    <label>name</label>
+                    <input type="text" name="name">
+                    <label>price</label>
+                    <input type="text" name="price">
+                    <label>quantity</label>
+                    <input type="text" name="quantity">
+                </fieldset>
+                <button type="submit">Add Product</button>
+            </form>
+        </article>
+        <article>
+            <form id="editProduct">
+                <fieldset>
+                    <legend>Edit existing product</legend>
+                    <label>productID</label>
+                    <input type="text" name="productID">
+                    <label>category</label>
+                    <input type="text" name="category">
+                    <label>name</label>
+                    <input type="text" name="name">
+                    <label>price</label>
+                    <input type="text" name="price">
+                    <label>quantity</label>
+                    <input type="text" name="quantity">
+                </fieldset>
+                <button type="submit">Edit Product</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>

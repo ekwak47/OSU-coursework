@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporting Goods Store</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="customers.html">Customers</a>
+        <a href="employees.html">Employees</a>
+        <a href="orders.html">Order Info</a>
+        <a href="products.html">Product Info</a>
+        <a href="suppliers.html">Suppliers/Vendors</a>
+        <a href="purchasedorders.html">Processed Orders</a>
+    </nav>
+    <header><h1>purchasedordersTable</h1></header>
+    <nav>
+        <a href="productspurchasedorders.html">View additional purchased orders here</a>
+    </nav>
+    <main>
+        <article>
+        <table id = "purchasedordersTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>purchaseID</th>
+                    <th>supplierID</th>
+                    <th>purchaseStatus</th>
+                    <th>purchaseDate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Processed</td>
+                    <td>2024-01-25</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>Shipped</td>
+                    <td>2024-02-03</td>
+                </tr>
+                <tr>
+                    <th><button type="submit">Edit</button></th>
+                    <th><button type="submit">Delete</button></th>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>Completed</td>
+                    <td>2024-02-08</td>
+                </tr>
+            </tbody>
+        </table>
+        </article>
+        <article>
+            <form id="addOrder">
+                <fieldset>
+                    <legend>Add new purchased order</legend>
+                    <label>purchaseID</label>
+                    <input type="text" name="purchaseID">
+                    <label>supplierID</label>
+                    <input type="text" name="supplierID">
+                    <label>purchaseStatus</label>
+                    <input type="text" name="status">
+                    <label>purchaseDate</label>
+                    <input type="text" name="purchaseDate">
+                </fieldset>
+                <button type="submit">Add Order</button>
+            </form>
+        </article>
+        <article>
+            <form id="editOrder">
+                <fieldset>
+                    <legend>Update exsting order status</legend>
+                    <label>purchaseID</label>
+                    <input type="text" name="purchaseID">
+                    <label>supplierID</label>
+                    <input type="text" name="supplierID">
+                    <label>purchaseStatus</label>
+                    <input type="text" name="status">
+                    <label>purchaseDate</label>
+                    <input type="text" name="purchaseDate">
+                </fieldset>
+                <button type="submit">Update</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
