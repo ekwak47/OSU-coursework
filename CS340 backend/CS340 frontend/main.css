@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue;
+
+}
+
+table {
+    padding: .5%;
+    border: 3px solid purple;
+}
+
+caption {
+    text-size-adjust: 150%;
+}
+
+thead {
+    text-align: left;
+    border: 3px solid purple;
+}
+
+tbody {
+    padding: 2%;
+
+}
+nav {
+    border: 3px solid black;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+    background-color: lightblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
