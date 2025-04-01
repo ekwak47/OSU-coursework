@@ -1,0 +1,124 @@
+﻿
+.background {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.subscribe {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px; 
+    border-radius: 9px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.3s;
+}
+
+.subscribe:hover {
+    background-color: rgb(128, 157, 78);
+    color: black;
+    opacity: 0.6;
+}
+
+.subscribe:active {
+    background-color: rgb(138, 100, 73);
+}
+
+.join {
+    border-color: rgb(197, 197, 212);
+    color: rgb(0, 0, 0);
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s,
+      color .3s;
+}
+
+.join:hover {
+    background-color: gray;
+}
+
+.join:active {
+    opacity: 0.7;
+}
+
+.tweet{
+    background-color: rgb(114, 114, 224);
+    color: white;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow .3s;
+}
+
+.tweet:hover {
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    color: aqua;
+}
+
+.personal-site {
+    font-family: 'Comic Sans MS';
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.author {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    text-align: center;
+}
+
+.code-links {
+    border: 5px solid rgb(128, 157, 78);
+    text-align: center;
+    background-color: rgb(242, 231, 216, 0.4);
+    margin-bottom: 100px;
+}
+
+.code-links a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    padding-right: 15px;
+}
+
+.code-links li {
+    display: inline-block;
+
+}
+
+footer {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    color: aqua;
+}
