@@ -1,0 +1,61 @@
+1. Start page:
+
+
+    <div class="form-parent">
+
+        <div class="sign-up"></div>
+        <div class="sign-in"></div>
+
+        <div class="form-container">
+            <div class="sign-in-form" id="sign-in-form">
+                <h1 class="title">Sign in</h1>
+                <div class="fields">
+                    <input type="text" placeholder="username" />
+                    <input type="password" placeholder="password" />
+                </div> 
+                <div class="submit-container">
+                    <button type="submit" class="btn">
+                        Sign In
+                    </button>
+                    <p class="link">New? Create Account Here</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+2. Create acc
+
+    <article>
+        <form id="createuser">
+
+            <div class="form">
+                <h1 class="heading">Create New Account</h1>
+                <input type="text" placeholder="username" autocomplete="off" class="username" required />
+                <input type="email" placeholder="email" autocomplete="off" class="email" required />
+                <input type="password" placeholder="password" autocomplete="off" class="password" required />
+                <button class="submit">Create Account</button>
+
+                <p>For existing users, login <a href="login.html">here</a></p><br>
+            </div>
+
+        </form>
+    </article>
+
+3. login
+
+<article>
+        <form id="userlogin">
+            
+            <div class="form">
+                <h1 class="heading">Login</h1>
+                <input type="email" placeholder="email" autocomplete="off" class="email" required />
+                <input type="password" placeholder="password" autocomplete="off" class="password" required />
+                <button class="submit">Login</button>
+
+                <a href="create.html">New? Create Account</a><br>
+            </div>
+
+            <script></script>
+        </form>
+    </article>

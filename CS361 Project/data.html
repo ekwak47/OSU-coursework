@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm?</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='main.js'></script>
+</head>
+
+
+<body>
+    <header><h1>Data Table</h1></header>
+    <main>
+        <article>
+
+            <p>Here you can add data in a more viewable format. To return to the textbox click <a href="diet.html"><strong>here</strong></a></p>
+
+            <p>To return to the main menu, click <a href="homepage.html"><strong>here</strong></a></p>
+
+            <table id="dietTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>scheduleID</th>
+                        <th>date</th>
+                        <th>breakfast</th>
+                        <th>calories</th>
+                        <th>lunch</th>
+                        <th>calories</th>
+                        <th>dinner</th>
+                        <th>calories</th>
+                        <th>misc</th>
+                        <th>calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><button type="submit">Edit</button></th>
+                        <th><button type="submit">Delete</button></th>
+                        <th>1</th>
+                        <th>5/5/24</th>
+                        <th>breakfast</th>
+                        <th>calories</th>
+                        <th>lunch</th>
+                        <th>calories</th>
+                        <th>dinner</th>
+                        <th>calories</th>
+                        <th>misc</th>
+                        <th>calories</th>
+                    </tr>
+                    <tr>
+                        <th><button type="submit">Edit</button></th>
+                        <th><button type="submit">Delete</button></th>
+                        <th>2</th>
+                        <th>5/6/24</th>
+                        <th>breakfast</th>
+                        <th>calories</th>
+                        <th>lunch</th>
+                        <th>calories</th>
+                        <th>dinner</th>
+                        <th>calories</th>
+                        <th>misc</th>
+                        <th>calories</th>
+                    </tr>
+                    <tr>
+                        <th><button type="submit">Edit</button></th>
+                        <th><button type="submit">Delete</button></th>
+                        <th>3</th>
+                        <th>5/7/24</th>
+                        <th>breakfast</th>
+                        <th>calories</th>
+                        <th>lunch</th>
+                        <th>calories</th>
+                        <th>dinner</th>
+                        <th>calories</th>
+                        <th>misc</th>
+                        <th>calories</th>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <form id="addDay">
+                <fieldset>
+                    <legend>Add new order to table</legend>
+                    <label>scheduleID</label>
+                    <input type="text" name="scheduleID">
+                    <label>date</label>
+                    <input type="text" name="date">
+                    <label>breakfast</label>
+                    <input type="text" name="breakfastID">
+                    <label>calories</label>
+                    <input type="text" name="calories">
+                    <label>lunch</label>
+                    <input type="text" name="orderStatus">
+                    <label>calories</label>
+                    <input type="text" name="completion">
+                    <label>dinner</label>
+                    <input type="text" name="price">
+                    <label>calories</label>
+                    <input type="text" name="quantity">
+                    <label>mise</label>
+                    <input type="text" name="snack" />
+                    <label>calories</label>
+                    <input type="text" name="price">
+                </fieldset>
+                <button type="submit">Add Day</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>
